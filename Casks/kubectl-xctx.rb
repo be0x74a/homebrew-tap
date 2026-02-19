@@ -3,7 +3,7 @@ cask "kubectl-xctx" do
   name "kubectl-xctx"
   desc "Execute kubectl commands across multiple contexts matching a regex"
   homepage "https://github.com/be0x74a/kubectl-xctx"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kubectl-xctx" do
   on_macos do
     on_intel do
       url "https://github.com/be0x74a/kubectl-xctx/releases/download/v#{version}/kubectl-xctx_#{version}_darwin_amd64.tar.gz"
-      sha256 "f2b21dda8b078b74593072d3aaa6f5e6ee9fef07147412678551757db8945bca"
+      sha256 "2297a901339dd3d4cbe24db9a091721fe33b3454c9bf1ed4a6d89b28db3aa29a"
     end
     on_arm do
       url "https://github.com/be0x74a/kubectl-xctx/releases/download/v#{version}/kubectl-xctx_#{version}_darwin_arm64.tar.gz"
-      sha256 "ef9fdc63a5a93941fd39c5024127ef01b3f3c6c72eace13354348b2b0e89b24d"
+      sha256 "2a6eb930afde5cd97b4564fb9068ac4cada70016a30854c207049b3e84f4562b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/be0x74a/kubectl-xctx/releases/download/v#{version}/kubectl-xctx_#{version}_linux_amd64.tar.gz"
-      sha256 "7727b47a25c8c56424473f82414ad3bcae406139764684b769cfdac7242e97b9"
+      sha256 "ab16c60a86e44fb9e15cad4f7c0756398f73275164ce9bb0c96b523cb87bdb8f"
     end
     on_arm do
       url "https://github.com/be0x74a/kubectl-xctx/releases/download/v#{version}/kubectl-xctx_#{version}_linux_arm64.tar.gz"
-      sha256 "4b048acb9de689f2bb69fc3ee1b06eadc59e339d73f1e59924210b53b75d007d"
+      sha256 "f3f1cc07b544cf61b56121279d2009ed2f1d2150d7b1a9d8435fa0375b1d1a48"
     end
   end
 
