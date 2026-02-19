@@ -17,12 +17,12 @@ brew tap be0x74a/tap
 ## Install
 
 ```bash
-brew install be0x74a/tap/kubectl-xctx
+brew install --cask be0x74a/tap/kubectl-xctx
 ```
 
 ## Update
 
 ```bash
 brew update
-brew upgrade kubectl-xctx
+brew upgrade --cask kubectl-xctx
 ```
